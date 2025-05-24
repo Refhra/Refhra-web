@@ -129,3 +129,11 @@
     @apply bg-background text-foreground;
   }
 }
+
+.fc-button {
+  @apply bg-blue-500 text-white hover:bg-blue-600;
+}
+
+.fc-event {
+  @apply cursor-move;
+}
