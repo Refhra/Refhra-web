@@ -1,11 +1,5 @@
-import React from 'react'
+import Timetable from '@/components/Timetable';
 
-const Timetable = () => {
-  return (
-    <div>
-      this is the Timetable page
-    </div>
-  )
+export default function TimetablePage() {
+  return <Timetable />;
 }
-
-export default Timetable
