@@ -1,4 +1,4 @@
-# hng_boilerplate_nextjs
+# Refhra_Web_Nextjs
 
 ## Overview
 
@@ -15,7 +15,7 @@ In order to run this app locally, you should have the following programs install
 
 ```
 git clone https://github.com/TeamElite1/Harmoniq-web.git
-cd Harmoniq-web
+cd Refhra_web
 ```
 
 #### Install dependencies
