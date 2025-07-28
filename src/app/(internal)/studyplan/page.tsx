@@ -1,5 +1,9 @@
 import Studyplanpage from "@/components/Studyplanpage";
 
-export default function Page() {
+
+
+const Studyplan = () => {
   return <Studyplanpage />;
 }
+
+export default Studyplan;

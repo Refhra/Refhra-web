@@ -14,7 +14,7 @@ import { Button } from "@/components/ui/button"
 import { Progress } from "@/components/ui/progress"
 import { Badge } from "@/components/ui/badge"
 
-export default function SkillPage() {
+const  SkillPage = () => {
   const skills = [
     { name: "Data Analysis", hours: 10, icon: BarChart3, active: true },
     { name: "Project Management", hours: 15, icon: Calendar, active: false },
@@ -153,3 +153,5 @@ export default function SkillPage() {
     </div>
   )
 }
+
+export default SkillPage;

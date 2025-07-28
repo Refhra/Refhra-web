@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 
-export default function Studyplanpage() {
+const Studyplanpage = () => {
   return (
     <div className=" bg-gray-20 ">
       {/* Main Content */}
@@ -86,3 +86,5 @@ export default function Studyplanpage() {
     </div>
   )
 }
+
+export default Studyplanpage;
