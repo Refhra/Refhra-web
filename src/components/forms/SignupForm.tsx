@@ -52,7 +52,7 @@ const SignupForm = () => {
                 <FormLabel>Email Address</FormLabel>
                 <FormControl>
                   <Input
-                    className="rounded-sm placeholder:text-sm placeholder:text-[#667085] shadow-none  "
+                    className="rounded-sm placeholder:text-sm placeholder:text-[#667085] shadow-none"
                     placeholder="janedoe@gmail.com"
                     {...field}
                   />
@@ -113,7 +113,9 @@ const SignupForm = () => {
             )}
           />
 
-          <Button className="mt-4 bg-blue-600 hover:bg-blue-800 ">Sign up</Button>
+          <Button className="mt-4 bg-blue-600 hover:bg-blue-800 ">
+            Sign up
+          </Button>
         </form>
       </Form>
 
