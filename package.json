@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbo",
+    "dev": "node init && next dev --turbo",
     "turbo:dev": "next dev --turbo",
-    "build": "next build",
-    "start": "next start",
+    "build": "node init && next build",
+    "start": "node init && next start",
     "lint": "next lint",
     "test": "vitest",
     "coverage": "vitest run --coverage",
